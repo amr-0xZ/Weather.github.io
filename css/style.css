@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(39, 43, 63);
+}
+
+
+.nav-link {
+    transition: all 0.5s;
+}
+.nav-link:hover{
+ color: #009ad8;
+}
+.city{
+    font-size: 30px;
+}
+
+.temp{
+    font-size: 50px;
+}
+
+.oo{
+    font-size: 30px;
+    position: absolute;
+    transform: translateY(-20%);
+}
