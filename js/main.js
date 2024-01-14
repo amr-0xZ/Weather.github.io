@@ -4,7 +4,7 @@ let key = "9a37c3adf74c43a7a3c63529241401"
 let srch = document.querySelector("#srch")
 
 async function getWeather(country) {
-    let response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${country}&days=3`)
+    let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${country}&days=3`)
     let result = await response.json();
     console.log(result)
     display(result);
